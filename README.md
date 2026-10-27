@@ -31,12 +31,12 @@ FLUSH PRIVILEGES;
 mvn spring-boot:run
 ```
 
-The application will start on port 8080.
+The application will start on port 9004 (or the port specified in `application.properties`).
 
 ## API Documentation
 
 Once the application is running, access Swagger UI at:
-http://localhost:8080/swagger-ui.html
+http://localhost:9004/swagger-ui/index.html (or http://localhost:9004/swagger-ui.html)
 
 ## Testing
 
